@@ -1,0 +1,59 @@
+{
+  "name": "YouthAndra.github.io",
+  "version": "1.0.0",
+  "description": "blog",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development node ./src/script/serve.js",
+    "bootstrap": "node ./node_modules/.bin/lerna bootstrap",
+    "travis": "cross-env NODE_ENV=development node ./src/script/travis.js",
+    "build": "cross-env NODE_ENV=production webpack --config ./src/script/webpack.config.js",
+    "clean": "node ./src/script/clean.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YouthAndra/YouthAndra.github.io"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "Sirius J <youthjia@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YouthAndra/YouthAndra.github.io"
+  },
+  "homepage": "https://github.com/YouthAndra/YouthAndra.github.io#readme",
+  "dependencies": {
+    "@babel/core": "^7.2.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "@prakriya/reload4-html-webpack-plugin": "^1.0.2",
+    "autoprefixer": "^9.4.2",
+    "babel-loader": "^8.0.4",
+    "chalk": "^2.4.1",
+    "cross-env": "^5.2.0",
+    "css-loader": "^1.0.1",
+    "file-loader": "^2.0.0",
+    "filemanager-webpack-plugin": "^2.0.5",
+    "fs-extra": "^7.0.1",
+    "glob": "^7.1.3",
+    "html-layout-webpack-plugin": "^1.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "import-fresh": "^2.0.0",
+    "inquirer": "^6.2.1",
+    "lerna": "^3.5.1",
+    "mini-css-extract-plugin": "^0.4.5",
+    "node-sass": "^4.10.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "postcss-loader": "^3.0.0",
+    "raw-loader": "^0.5.1",
+    "sass-loader": "^7.1.0",
+    "simple-i18n-webpack-plugin": "^1.0.7",
+    "simple-progress-webpack-plugin": "^1.1.2",
+    "style-loader": "^0.23.1",
+    "uglifyjs-webpack-plugin": "^2.0.1",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-serve": "^2.0.3"
+  }
+}
