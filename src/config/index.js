@@ -32,7 +32,7 @@ const config = {
     },
     plugins: {
       loading: "#000",
-      baidutongji: "6878b56ee36c990a8330d8bc412ede91"
+      baidutongji: "b511b88502a6caf5710423cdf2203692"
     },
     menus: [
       {
