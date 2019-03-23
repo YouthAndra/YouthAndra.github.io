@@ -7,28 +7,28 @@ const config = {
   dev: {
     port: 3000,
     outputPath: path.join(process.cwd(), "./"),
-    publicPath: isProd ? "https://cdn.zhw-island.com/" : "/"
+    publicPath: isProd ? "https://youthandra.github.io/" : "/"
   },
   website: {
     pageName(page){
       return page.replace('.html', '')
     },
     seo: {
-      title: "老赵茶馆",
-      keywords: "老赵, 茶馆, 前端, 代码, 扯淡, 音乐, 电影, 分享",
-      description: "Hi, 老赵其实不老, 是一枚前端攻城狮, 就这样...<br/>QQ群：320881312",
-      copyright: '© 2018 All Rights Reserved. 粤ICP备15035931号-1. 阿里云 提供 CDN 服务. 托管于 <a href="https://github.com/zhw2590582/zhw2590582.github.io">GitHub</a>.'
+      title: "Sirius Home Page",
+      keywords: "sirius, 张佳, 张光佳, 代码, 扯淡, 音乐, 电影, 分享",
+      description: "Hi, 暂时还没想到要描叙什么...<br/>QQ：361244845",
+      copyright: '© 2018 All Rights Reserved.  阿里云 提供 CDN 服务. 托管于 <a href="https://github.com/YouthAndra/YouthAndra.github.io">GitHub</a>.'
     },
     post: {
       excerpt: 120,
       pageSize: 5
     },
     github: {
-      clientID: "2fa6841ea796af21b439",
-      clientSecret: "4e2196768a4ce9ce143bf2b2ba378efcbd8081f8",
-      repo: "zhw2590582.github.io",
-      owner: "zhw2590582",
-      admin: ["zhw2590582"]
+      clientID: "645d8513c8e9a0f1a3b1",
+      clientSecret: "750df2efe31dd57205617eee57cbd198afd1368c",
+      repo: "youthandra.github.io",
+      owner: "YouthAndra",
+      admin: ["YouthAndra"]
     },
     plugins: {
       loading: "#000",
