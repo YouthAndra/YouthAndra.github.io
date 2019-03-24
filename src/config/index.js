@@ -7,7 +7,7 @@ const config = {
     dev: {
         port: 3000,
         outputPath: path.join(process.cwd(), "./"),
-        publicPath: isProd ? "https://siirusjia.com/" : "/"
+        publicPath: isProd ? "https://siriusjia.com/" : "/"
     },
     website: {
         pageName(page){
